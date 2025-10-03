@@ -1,0 +1,137 @@
+pwd
+ls
+ls -l
+ls -a
+ls -la
+man man
+ls
+ls -l
+cat README
+cat << EOF
+linea 1
+linea 2
+linea 3
+linea 4
+EOF
+
+mkdir clases
+ls
+sudo snap install tree
+tree .
+cd repogit
+git clone git@github.com:gonza9-commits/TP_AySO.git
+cd T[Tab]
+cd T[
+cd Tp_AySO.git
+git clone <git@github.com:gonza9-commits/TP_AySO.git>
+history
+cd repogit
+git clone git@github.com:gonza9-commits/TP_AySO.git
+cd T[
+cd TP_AySO.git
+cd ..
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+sudo apt install git
+cd
+git --version
+git clone git@github.com:gonza9-commits/TP_AySO.git
+cp README miercoles4/
+cd miercoles4/
+cd TP_AySO/
+ls -la
+git add README
+cd
+cp README TP_AySO/
+cd TP_AySO/
+ls -la
+git status
+git add README
+git status
+git commit -m "Primer archivo"
+git config user.name "Gonzalo Caseres"
+git config user.email "gonzaloromancaseres@gmail.com"
+git coomit -m "Primer archivo"
+git commit -m "Primer archivo"
+git push origin main
+git push -u origin main
+cd repogit
+cd
+cd repogit
+git clone git@github.com:gonza9-commits/TP_AySO.git
+cd TP_AySO/
+ls -
+ls -l
+cat /etc/mtab
+cd
+cd etc/
+man grep
+grep SYSFS /etc/mtab
+grep -i Sysfs /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+man whoami
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+cd repogit
+cd TP_AySO
+man grep
+grep -i HOME_URL /etc/os-release
+grep home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git config --global user.email "gonzaloromancaseres@gmail.com"
+git config --global user.name "Gonzalo Caseres"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+exit
+cd repogit
+cd TP_AySO/
+grep "vagrant" /etc/passwd | awk -F ':' '{print $5, $6}' >> datos_usuario.txt
+git add .
+git commit -m "feet: Añadiendo información del Usuario"
+cat << FIN
+FIN
+
+cat << FIN >> README.md
+Alumno : Gonzalo Román Caseres
+División : 115
+Turno : Mañana
+FIN
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añandiendo Readme y datos de usuario"
+git push
+exit
+cd repogit
+cd
+mkdir -p TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+cat << FIN > script_dir.sh
+mkdir -p TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+FIN
+
+ls -l script_dir.sh
+chmod 775 script_dir.sh
+git add .
+cd repogit
+cd TP_AySO/
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+cat << FIN > script_dir.sh
+mkdir -p TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+FIN
+
+chmod 775 script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
